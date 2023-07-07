@@ -1,0 +1,15 @@
+.container{
+    background-color: rgb(2, 2, 65);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    width: 15vw;
+    height: 74.5vh;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-left: 37px;
+}
+

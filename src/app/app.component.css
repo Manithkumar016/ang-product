@@ -1,0 +1,27 @@
+.container{
+    background-color: rgb(82, 87, 87);
+    height: 500px;
+    width: 70%;
+    margin: 25px auto;
+    padding: unset;
+    
+}
+
+.nav{
+    display: block;
+}
+
+.con-list{
+    display: grid;
+    
+    background-color: aqua;
+}
+
+.parent{
+    display: flex;
+    height: 100%;
+}
+
+.child{
+    width: 100%;
+}

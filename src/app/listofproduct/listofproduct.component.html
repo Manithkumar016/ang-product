@@ -1,0 +1,21 @@
+<div class="container con-list">
+    <table>
+        <thead>
+          <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of products">
+            <td>{{ product.product_name }}</td>
+            <td>{{ product.price }}</td>
+            <td>{{ product.description }}</td>
+            <td><a (click)="deletehandle(product)"><i class="fa-solid fa-trash-can delete-icon"></i></a></td>
+          </tr>
+        </tbody>
+      </table>
+      
+    </div>

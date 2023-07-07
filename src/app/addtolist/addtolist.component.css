@@ -1,0 +1,36 @@
+.container{
+    background-color: rgb(250, 250, 250);
+    height: 300px;
+    width: 70%;
+    margin: 25px auto;
+    padding: unset;
+    border: 2px solid;
+    border-radius: 5px;
+    overflow: scroll;
+}
+
+.one{
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.title{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.form{
+    margin: 15px 20px;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btnc{
+    margin-left: 5px;
+}

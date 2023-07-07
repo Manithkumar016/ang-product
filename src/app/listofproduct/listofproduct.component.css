@@ -1,0 +1,10 @@
+.con-list{
+    display: grid;
+    
+    background-color: aqua;
+}
+
+.delete-icon {
+    background: transparent;
+  }
+  
